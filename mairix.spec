@@ -3,7 +3,7 @@ Version:        0.21
 Release:        %mkrel 1
 Summary:        A program for indexing and searching email messages
 
-Group:          Applications/Internet
+Group:          Networking/Mail
 License:        GPLv2
 URL:            http://www.rc0.org.uk/mairix
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
