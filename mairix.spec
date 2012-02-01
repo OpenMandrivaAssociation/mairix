@@ -7,7 +7,7 @@ Group:          Networking/Mail
 License:        GPLv2
 URL:            http://www.rc0.org.uk/mairix
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-Patch0:         mairix-0.21-build.patch
+Patch0:         mairix-0.23-build.patch
 
 BuildRequires:  bison flex bzip2-devel zlib-devel
 
