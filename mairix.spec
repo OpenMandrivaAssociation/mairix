@@ -1,6 +1,6 @@
 Name:           mairix
-Version:        0.22
-Release:        %mkrel 1
+Version:        0.23
+Release:        1
 Summary:        A program for indexing and searching email messages
 
 Group:          Networking/Mail
@@ -8,7 +8,6 @@ License:        GPLv2
 URL:            http://www.rc0.org.uk/mairix
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:         mairix-0.21-build.patch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:  bison flex bzip2-devel zlib-devel
 
