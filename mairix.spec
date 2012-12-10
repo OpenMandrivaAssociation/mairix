@@ -44,3 +44,38 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/mairix.1*
 %{_mandir}/man5/mairixrc.5*
 
+
+
+%changelog
+* Wed Feb 01 2012 Bogdano Arendartchuk <bogdano@mandriva.com> 0.23-1
++ Revision: 770516
+- replaced the botched build patch with another that builds on 0.23
+- new version 0.23
+
+* Wed Mar 16 2011 Stéphane Téletchéa <steletch@mandriva.org> 0.22-1
++ Revision: 645305
+- update to new version 0.22
+
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.21-2mdv2011.0
++ Revision: 620290
+- the mass rebuild of 2010.0 packages
+
+* Mon Jul 27 2009 Bogdano Arendartchuk <bogdano@mandriva.com> 0.21-1mdv2010.0
++ Revision: 400655
+- imported package mairix
+
+
+* Mon Jul 27 2009 Bogdano Arendartchuk <bogdano@mandriva.com>
+- Ported package to Mandriva Linux
+
+* Sat Jul 25 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.21-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Wed Feb 25 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.21-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
+* Fri Aug 29 2008 Miroslav Lichvar <mlichvar@redhat.com> 0.21-2
+- fix building with new rpm
+
+* Wed Mar 05 2008 Miroslav Lichvar <mlichvar@redhat.com> 0.21-1
+- initial release
