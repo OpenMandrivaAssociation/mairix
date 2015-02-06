@@ -1,6 +1,6 @@
 Name:           mairix
 Version:        0.23
-Release:        1
+Release:        2
 Summary:        A program for indexing and searching email messages
 
 Group:          Networking/Mail
