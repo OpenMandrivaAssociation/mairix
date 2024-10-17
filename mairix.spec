@@ -5,7 +5,7 @@ Summary:        A program for indexing and searching email messages
 
 Group:          Networking/Mail
 License:        GPLv2
-URL:            http://www.rc0.org.uk/mairix
+URL:            https://www.rc0.org.uk/mairix
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:         mairix-0.23-build.patch
 
